@@ -4,7 +4,7 @@ Astra Companion lets you view and control the accounts running in your Astra des
 
 [Download the latest Android APK](https://github.com/s1mpledelacraiova-spec/Astra-Compapp/releases/latest)
 
-Version **0.2.2**, build **2004**. Requires **Android 7.0 or newer**. The universal APK supports ARMv7, ARM64 and x86_64 devices.
+Version **0.2.3**, build **2005**. Requires **Android 7.0 or newer**. The universal APK supports ARMv7, ARM64 and x86_64 devices.
 
 ## Install and pair
 
@@ -40,8 +40,22 @@ Keep using APKs from this repository for later releases. Updates signed with the
 
 ## Beta status and iPhone
 
-This is a public beta. Testing on physical Android phones is still pending.
+This is a public beta. Real-phone sign-in recovery, QR pairing and live controls still need confirmation.
 
 iPhone users can use the [Astra web app](https://astra-companion.s1mpledelacraiova.workers.dev). Open it in Safari, then choose **Share → Add to Home Screen**.
 
 This repository distributes the Android APK and installation instructions.
+
+## Sign-in recovery
+
+If Discord does not open, enable a default browser and tap **Open Discord sign-in
+again**. The app reuses the current sign-in attempt until it expires. Cancel and
+start again if it expires. Sign-in uses the system browser.
+
+Connection errors now distinguish timeout, DNS, secure-connection, service HTTP
+and unreadable-response failures. Check automatic date/time for secure-connection
+or rejected-request errors, and try another network for DNS or connection errors.
+The original phone's error cause has not been verified.
+
+Install 0.2.3 over the public 0.2.2 app to update; both use the same release signer.
+The earlier local debug APK still requires a one-time uninstall and fresh pairing.

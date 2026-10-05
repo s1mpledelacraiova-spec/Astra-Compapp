@@ -1,0 +1,48 @@
+Astra Companion 0.2.3 — build 2005
+Android 7.0 or newer; universal APK for ARMv7, ARM64 and x86_64.
+
+Download:
+https://github.com/s1mpledelacraiova-spec/Astra-Compapp/releases/latest
+
+1. Download the APK from the release assets using your Android phone.
+2. Open the download. If prompted, allow your browser or file app to install
+   apps from this source, then tap Install.
+3. Open Astra Companion and tap Sign in with Discord. Authorize in the browser,
+   then return to Astra Companion.
+4. On the PC, open Astra and start the accounts you want to access. Open
+   Phone (P), check Enable phone dashboard, then click Create pairing code.
+5. On the phone, tap Pair PC > Scan QR code. Allow camera access and scan the
+   code displayed in Astra, or enter the pairing code manually. Tap Request pairing.
+6. On the PC, click Approve selected accounts… and select the allowed accounts.
+7. For controls, open Paired phones, select this phone, click
+   Change control permission… and confirm Allow phone controls.
+
+Use Astra desktop 1.8.0.56 or newer, and keep it running and connected on the PC.
+
+Select one or more accounts, then tap Edit selected. Available controls include
+Pause/Resume, configuration preset, module, ammunition, working map, formation,
+supported module settings and NPC attack targets/priority. Review before applying.
+If a result is unconfirmed or expires, check the PC before trying again.
+
+If you previously installed the local test/debug APK, uninstall it once before
+installing this public release. Then sign in and pair again, including PC approval.
+Later APKs signed with this release certificate can update the public app directly.
+Download and install a new APK to update.
+
+Public beta: real-phone sign-in, QR pairing and live controls still need confirmation.
+
+iPhone web app:
+https://astra-companion.s1mpledelacraiova.workers.dev
+Open in Safari > Share > Add to Home Screen.
+
+Sign-in recovery in 0.2.3:
+If Discord does not open, enable a default browser and tap Open Discord sign-in
+again. The app reuses the current unexpired request. Cancel and start again if
+the request expires. Install this APK over the public 0.2.2 app; no uninstall is
+needed when updating between these public releases.
+
+Connection messages now distinguish DNS, secure connection, timeout, HTTP service
+failure and unreadable replies. For a secure-connection or rejected-request
+message, check automatic date/time. For DNS/connection issues, try another network.
+Do not share account passwords, authorization links or tokens when reporting an error.
+The cause of the original physical-phone sign-in error has not been verified.
